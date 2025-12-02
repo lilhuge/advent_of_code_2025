@@ -1,0 +1,16 @@
+[project]
+name = "aoc2025"
+version = "0.0.0"
+dependencies = [
+  "requests",
+  "python-dotenv",
+]
+
+[project.optional-dependencies]
+dev = ["ruff"]
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]  # errors, pyflakes, import sorting
