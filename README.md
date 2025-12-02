@@ -1,3 +1,5 @@
-python new_day.py
+# Advent Of Code 2025
 
-python day01/solve.py
+### New day set up script
+`python new_day.py`
+
